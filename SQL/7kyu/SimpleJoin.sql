@@ -8,4 +8,4 @@ SELECT
 FROM
   products
 JOIN
-  companies on companies.id = products.company_id
+  companies on companies.id = products.company_id;
