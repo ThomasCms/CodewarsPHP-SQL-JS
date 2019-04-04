@@ -39,7 +39,6 @@ function count_smileys($arr): int
                     break;
             }
         }
-    }
-    );
+    });
     return count($res);
 }
