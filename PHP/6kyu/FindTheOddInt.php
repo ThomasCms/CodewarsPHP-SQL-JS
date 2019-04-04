@@ -10,7 +10,7 @@ function findIt(array $seq) : int
 {
     $number = 0;
 
-    foreach($seq as $data){
+    foreach ($seq as $data) {
         $number ^= $data;
     }
 

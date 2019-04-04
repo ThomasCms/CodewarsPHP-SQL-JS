@@ -6,6 +6,11 @@
  * Time: 11:28
  */
 
-function invert(array $a): array {
-    return array_map(function ($n) {return -$n;}, $a);
+function invert(array $a): array
+{
+    return array_map(
+        function ($n) {
+            return -$n;
+        }, $a
+    );
 }

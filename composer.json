@@ -1,0 +1,17 @@
+{
+    "name": "thocou/codewars",
+    "authors": [
+        {
+            "name": "Thomas Coumes",
+            "email": "thomas.coumes@smile.fr"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "PHP/"
+        }
+    }
+}

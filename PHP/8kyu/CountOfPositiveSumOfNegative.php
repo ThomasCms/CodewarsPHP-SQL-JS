@@ -6,7 +6,8 @@
  * Time: 11:17
  */
 
-function countPositivesSumNegatives($input) {
+function countPositivesSumNegatives($input)
+{
     $solution = [0, 0];
 
     if (is_array($input)) {

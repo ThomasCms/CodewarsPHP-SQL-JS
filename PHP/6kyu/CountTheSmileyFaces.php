@@ -6,11 +6,12 @@
  * Time: 11:36
  */
 
-function count_smileys($arr): int {
+function count_smileys($arr): int
+{
     if (empty($arr)) {
         return 0;
     }
-    $res = array_filter($arr, function($smile) {
+    $res = array_filter($arr, function ($smile) {
         $aStr = str_split($smile);
         $cnt = count($aStr);
         if ($cnt > 3) {

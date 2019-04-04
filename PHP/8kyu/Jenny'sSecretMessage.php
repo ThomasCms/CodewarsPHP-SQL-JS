@@ -6,10 +6,11 @@
  * Time: 11:00
  */
 
-function greet($name) {
+function greet($name)
+{
     if ($name != 'Johnny') {
         return "Hello, $name!";
-    }elseif ($name === 'Johnny') {
+    } elseif ($name === 'Johnny') {
         return 'Hello, my love!';
     }
 }

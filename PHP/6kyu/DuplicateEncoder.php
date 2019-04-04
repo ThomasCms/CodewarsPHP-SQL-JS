@@ -6,7 +6,8 @@
  * Time: 11:26
  */
 
-function duplicate_encode($word){
+function duplicate_encode($word)
+{
     $array = str_split($word);
     $string = '';
 

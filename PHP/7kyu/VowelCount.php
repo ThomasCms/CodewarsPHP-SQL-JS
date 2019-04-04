@@ -6,14 +6,15 @@
  * Time: 11:15
  */
 
-function getCount($str) {
+function getCount($str)
+{
     $vowelsCount = 0;
     $vowels = ['a', 'e', 'i', 'o', 'u'];
 
     $array = str_split($str);
 
-    foreach($array as $letter) {
-        if(in_array($letter, $vowels)) {
+    foreach ($array as $letter) {
+        if (in_array($letter, $vowels)) {
             $vowelsCount++;
         }
     }

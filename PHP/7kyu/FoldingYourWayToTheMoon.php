@@ -6,11 +6,12 @@
  * Time: 10:31
  */
 
-function fold_to($distance) {
+function fold_to($distance)
+{
     $num = 0.0001;
     $result = 0;
 
-    while($num < $distance){
+    while ($num < $distance) {
         $result++;
         $num = $num * 2;
     }

@@ -6,7 +6,8 @@
  * Time: 11:16
  */
 
-function format_money(float $amount): string {
+function format_money(float $amount): string
+{
     $amount = str_split($amount);
     $length = count($amount);
     $index = $length - 3;

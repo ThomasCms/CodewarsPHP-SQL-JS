@@ -20,7 +20,7 @@ function basicOp($op, $val1, $val2)
         return $val1 * $val2;
     }
 
-    if($op == '/') {
+    if ($op == '/') {
         return $val1 / $val2;
     }
 }

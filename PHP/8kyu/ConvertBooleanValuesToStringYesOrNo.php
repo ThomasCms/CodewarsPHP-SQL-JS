@@ -6,8 +6,9 @@
  * Time: 11:04
  */
 
-function boolToWord(bool $bool): string {
-    if ($bool == TRUE) {
+function boolToWord(bool $bool): string
+{
+    if ($bool == true) {
         $bool = 'Yes';
     } else {
         $bool = 'No';

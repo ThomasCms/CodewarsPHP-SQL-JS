@@ -6,7 +6,8 @@
  * Time: 12:29
  */
 
-function find_uniq($a) {
+function find_uniq($a)
+{
     $output = [];
     foreach ($a as $s) {
         $duplicatesRemoved = array_unique(str_split(strtolower($s)));

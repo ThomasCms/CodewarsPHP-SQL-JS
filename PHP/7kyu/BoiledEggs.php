@@ -6,6 +6,7 @@
  * Time: 11:35
  */
 
-function cooking_time(int $eggs): int {
+function cooking_time(int $eggs): int
+{
     return ceil($eggs/8)*5;
 }

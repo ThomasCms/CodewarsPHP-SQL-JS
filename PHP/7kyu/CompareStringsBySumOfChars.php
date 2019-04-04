@@ -6,7 +6,8 @@
  * Time: 11:28
  */
 
-function compare($s1, $s2) {
+function compare($s1, $s2)
+{
     $s1 = ctype_alpha($s1) ? strtoupper($s1) : "";
     $s2 = ctype_alpha($s2) ? strtoupper($s2) : "";
 

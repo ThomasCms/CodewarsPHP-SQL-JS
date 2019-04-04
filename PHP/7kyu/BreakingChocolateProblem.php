@@ -6,6 +6,7 @@
  * Time: 11:23
  */
 
-function breakChocolate ($n, $m) {
+function breakChocolate($n, $m)
+{
     return $n * $m - 1;
 };

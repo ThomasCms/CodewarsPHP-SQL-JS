@@ -6,6 +6,7 @@
  * Time: 11:14
  */
 
-function litres($t) {
+function litres($t)
+{
     return floor($t / 2);
 }

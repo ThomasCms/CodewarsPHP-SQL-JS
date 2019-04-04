@@ -6,7 +6,8 @@
  * Time: 11:15
  */
 
-function getMiddle($text) {
+function getMiddle($text)
+{
     $lenght = strlen($text);
     $evenOrOdd = null;
     $array = str_split($text);

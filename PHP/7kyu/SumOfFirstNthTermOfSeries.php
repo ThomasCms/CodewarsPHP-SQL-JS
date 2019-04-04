@@ -6,7 +6,8 @@
  * Time: 11:35
  */
 
-function series_sum($n) {
+function series_sum($n)
+{
     $sum = 0;
 
     for ($i = 0; $i <= ($n - 1); $i++) {

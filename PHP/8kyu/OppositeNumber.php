@@ -6,6 +6,7 @@
  * Time: 10:59
  */
 
-function opposite($n) {
+function opposite($n)
+{
     return $n * -1;
 }
