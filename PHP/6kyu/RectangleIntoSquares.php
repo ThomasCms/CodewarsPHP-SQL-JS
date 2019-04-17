@@ -6,8 +6,11 @@
  * Time: 15:04
  */
 
-function sqInRect($lng, $wdth) {
-    if ($lng == $wdth) { return null; }
+function sqInRect($lng, $wdth)
+{
+    if ($lng == $wdth) {
+        return null;
+    }
 
     $result = [];
     $vals = [$lng, $wdth];
