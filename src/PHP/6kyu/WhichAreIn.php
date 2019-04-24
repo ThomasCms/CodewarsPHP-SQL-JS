@@ -6,7 +6,12 @@
  * Time: 09:18
  */
 
-function inArray($array1, $array2)
+/**
+ * @param $array1
+ * @param $array2
+ * @return array
+ */
+function inArray($array1, $array2): array
 {
     $array1 = array_keys(array_flip($array1));
     $data = [];

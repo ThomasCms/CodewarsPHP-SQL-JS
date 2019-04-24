@@ -6,7 +6,11 @@
  * Time: 11:00
  */
 
-function greet($name)
+/**
+ * @param $name
+ * @return string
+ */
+function greet($name): string
 {
     if ($name != 'Johnny') {
         return "Hello, $name!";

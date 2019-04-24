@@ -6,7 +6,11 @@
  * Time: 11:19
  */
 
-function accum($s)
+/**
+ * @param $s
+ * @return string
+ */
+function accum($s): string
 {
     $output = '';
     for ($i = 1, $len = strlen($s); $i <= $len; $i++) {

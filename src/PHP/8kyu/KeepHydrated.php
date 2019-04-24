@@ -6,7 +6,11 @@
  * Time: 11:14
  */
 
-function litres($t)
+/**
+ * @param $t
+ * @return float
+ */
+function litres($t): float
 {
     return floor($t / 2);
 }

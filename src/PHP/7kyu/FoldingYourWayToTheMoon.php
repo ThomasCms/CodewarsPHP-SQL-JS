@@ -6,7 +6,11 @@
  * Time: 10:31
  */
 
-function fold_to($distance)
+/**
+ * @param $distance
+ * @return int|null
+ */
+function fold_to($distance): ?int
 {
     $num = 0.0001;
     $result = 0;

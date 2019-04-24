@@ -6,6 +6,10 @@
  * Time: 14:10
  */
 
+/**
+ * @param string $s
+ * @return int
+ */
 function solution(string $s): int
 {
     $max = 0;

@@ -6,6 +6,10 @@
  * Time: 09:27
  */
 
+/**
+ * @param int $num
+ * @return int
+ */
 function persistence(int $num): int
 {
     $i=0;

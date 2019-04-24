@@ -6,6 +6,10 @@
  * Time: 10:58
  */
 
+/**
+ * @param int $n
+ * @return string
+ */
 function even_or_odd(int $n): string
 {
     if (0 == $n % 2) {

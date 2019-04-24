@@ -6,7 +6,12 @@
  * Time: 15:04
  */
 
-function sqInRect($lng, $wdth)
+/**
+ * @param $lng
+ * @param $wdth
+ * @return array|null
+ */
+function sqInRect($lng, $wdth): ?array
 {
     if ($lng == $wdth) {
         return null;

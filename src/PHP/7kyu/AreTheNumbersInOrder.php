@@ -6,7 +6,11 @@
  * Time: 11:24
  */
 
-function in_asc_order($arr)
+/**
+ * @param $arr
+ * @return bool
+ */
+function in_asc_order($arr): bool
 {
     $prev = $arr[0];
 

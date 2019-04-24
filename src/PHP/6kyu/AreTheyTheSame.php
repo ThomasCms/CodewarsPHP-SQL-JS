@@ -6,7 +6,12 @@
  * Time: 15:13
  */
 
-function comp($a1, $a2)
+/**
+ * @param $a1
+ * @param $a2
+ * @return bool
+ */
+function comp($a1, $a2): bool
 {
     if (!is_null($a1) && !is_null($a2)) {
         sort($a1);

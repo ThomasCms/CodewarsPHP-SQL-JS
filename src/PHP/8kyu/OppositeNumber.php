@@ -6,6 +6,10 @@
  * Time: 10:59
  */
 
+/**
+ * @param $n
+ * @return float|int
+ */
 function opposite($n)
 {
     return $n * -1;

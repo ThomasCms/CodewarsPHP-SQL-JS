@@ -6,6 +6,10 @@
  * Time: 11:16
  */
 
+/**
+ * @param float $amount
+ * @return string
+ */
 function format_money(float $amount): string
 {
     $amount = str_split($amount);

@@ -6,7 +6,11 @@
  * Time: 11:15
  */
 
-function getCount($str)
+/**
+ * @param $str
+ * @return int
+ */
+function getCount($str): int
 {
     $vowelsCount = 0;
     $vowels = ['a', 'e', 'i', 'o', 'u'];

@@ -6,7 +6,12 @@
  * Time: 11:00
  */
 
-function repeatStr($n, $str)
+/**
+ * @param $n
+ * @param $str
+ * @return string
+ */
+function repeatStr($n, $str): string
 {
     return str_repeat($str, $n);
 }

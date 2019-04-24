@@ -6,7 +6,11 @@
  * Time: 12:29
  */
 
-function find_uniq($a)
+/**
+ * @param $a
+ * @return string
+ */
+function find_uniq($a): string
 {
     $output = [];
     foreach ($a as $s) {

@@ -6,7 +6,11 @@
  * Time: 11:17
  */
 
-function countPositivesSumNegatives($input)
+/**
+ * @param $input
+ * @return array
+ */
+function countPositivesSumNegatives($input): array
 {
     $solution = [0, 0];
 

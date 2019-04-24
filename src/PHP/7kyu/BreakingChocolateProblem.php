@@ -6,6 +6,11 @@
  * Time: 11:23
  */
 
+/**
+ * @param $n
+ * @param $m
+ * @return float|int
+ */
 function breakChocolate($n, $m)
 {
     return $n * $m - 1;

@@ -6,6 +6,10 @@
  * Time: 11:04
  */
 
+/**
+ * @param bool $bool
+ * @return string
+ */
 function boolToWord(bool $bool): string
 {
     if ($bool == true) {

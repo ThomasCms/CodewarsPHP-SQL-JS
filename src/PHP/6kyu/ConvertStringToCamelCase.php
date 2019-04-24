@@ -6,7 +6,11 @@
  * Time: 11:38
  */
 
-function toCamelCase($str)
+/**
+ * @param $str
+ * @return string
+ */
+function toCamelCase($str): string
 {
     $elements = explode('@', str_replace(['-', '_'], '@', $str));
 

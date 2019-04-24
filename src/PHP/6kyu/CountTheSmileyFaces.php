@@ -6,6 +6,10 @@
  * Time: 11:36
  */
 
+/**
+ * @param $arr
+ * @return int
+ */
 function count_smileys($arr): int
 {
     if (empty($arr)) {
@@ -40,5 +44,6 @@ function count_smileys($arr): int
             }
         }
     });
+
     return count($res);
 }

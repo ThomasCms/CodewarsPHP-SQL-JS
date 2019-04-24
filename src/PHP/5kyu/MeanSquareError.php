@@ -6,7 +6,12 @@
  * Time: 15:24
  */
 
-function solution(array $a, array $b): float
+/**
+ * @param array $a
+ * @param array $b
+ * @return float|int
+ */
+function solution(array $a, array $b)
 {
     $absoluteDiff = [];
 

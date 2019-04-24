@@ -49,9 +49,9 @@ function arrSort($array): array
 
 /**
  * @param $num
- * @return int
+ * @return float
  */
-function numSum($num): int
+function numSum($num): float
 {
     $sum = 0;
 

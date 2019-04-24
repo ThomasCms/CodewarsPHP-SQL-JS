@@ -6,7 +6,12 @@
  * Time: 11:28
  */
 
-function compare($s1, $s2)
+/**
+ * @param $s1
+ * @param $s2
+ * @return bool
+ */
+function compare($s1, $s2): bool
 {
     $s1 = ctype_alpha($s1) ? strtoupper($s1) : "";
     $s2 = ctype_alpha($s2) ? strtoupper($s2) : "";
@@ -21,5 +26,5 @@ function compare($s1, $s2)
         $s2_sum += ord($s2[$i]);
     }
 
-    return $s1_sum == $s2_sum;
+    return $s1_sum === $s2_sum;
 }

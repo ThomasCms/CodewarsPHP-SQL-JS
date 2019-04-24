@@ -6,7 +6,11 @@
  * Time: 11:18
  */
 
-function toJadenCase($string)
+/**
+ * @param $string
+ * @return string|null
+ */
+function toJadenCase($string): ?string
 {
     $solution = mb_convert_case($string, MB_CASE_TITLE);
 

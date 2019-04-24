@@ -6,7 +6,11 @@
  * Time: 11:27
  */
 
-function findIt(array $seq) : int
+/**
+ * @param array $seq
+ * @return int|mixed
+ */
+function findIt(array $seq)
 {
     $number = 0;
 

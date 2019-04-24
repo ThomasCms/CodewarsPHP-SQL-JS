@@ -6,7 +6,12 @@
  * Time: 15:18
  */
 
-function longestConsec($strarr, $k)
+/**
+ * @param $strarr
+ * @param $k
+ * @return string
+ */
+function longestConsec($strarr, $k): string
 {
     $longest = '';
 
@@ -16,5 +21,6 @@ function longestConsec($strarr, $k)
             $longest = strlen($consecutive) > strlen($longest) ? $consecutive : $longest;
         }
     }
+
     return $longest;
 }

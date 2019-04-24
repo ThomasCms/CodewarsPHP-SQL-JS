@@ -6,7 +6,11 @@
  * Time: 11:15
  */
 
-function getMiddle($text)
+/**
+ * @param $text
+ * @return string
+ */
+function getMiddle($text): string
 {
     $lenght = strlen($text);
     $evenOrOdd = null;

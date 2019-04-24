@@ -6,7 +6,11 @@
  * Time: 11:35
  */
 
-function series_sum($n)
+/**
+ * @param $n
+ * @return string
+ */
+function series_sum($n): string
 {
     $sum = 0;
 

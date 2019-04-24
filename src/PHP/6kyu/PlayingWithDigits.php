@@ -6,6 +6,11 @@
  * Time: 10:55
  */
 
+/**
+ * @param $n
+ * @param $p
+ * @return float|int
+ */
 function digPow($n, $p)
 {
     $array  = array_map('intval', str_split($n));
