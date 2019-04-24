@@ -11,4 +11,3 @@ install:
 script:
 - vendor/bin/phpcs --standard=PSR2 --ignore=src/Migrations src/
 - vendor/bin/php-cs-fixer fix --diff --dry-run -v
-- vendor/bin/phpstan analyse src/Command src/Controller src/Entity src/Form src/Repository src/Security src/Service --level 1
