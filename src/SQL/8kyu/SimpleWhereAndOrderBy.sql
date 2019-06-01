@@ -1,1 +1,1 @@
-SELECT * FROM people WHERE age > 50;
+SELECT * FROM people WHERE age > 50
