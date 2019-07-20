@@ -5,4 +5,4 @@ SELECT id,
        card_number,
        transaction_date
 FROM eusales
-WHERE price IS NOT NULL and price>50
+WHERE price IS NOT NULL and price>50;
