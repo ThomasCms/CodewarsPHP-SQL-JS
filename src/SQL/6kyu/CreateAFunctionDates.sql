@@ -1,0 +1,3 @@
+CREATE FUNCTION agecalculator(date) RETURNS integer
+AS $$ SELECT EXTRACT(YEAR FROM AGE($1))::int $$
+LANGUAGE SQL;
