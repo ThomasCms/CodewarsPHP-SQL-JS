@@ -11,7 +11,7 @@
  * @param $wdth
  * @return array|null
  */
-function sqInRect($lng, $wdth): ?array
+function sqInRect($lng, $wdth)
 {
     if ($lng == $wdth) {
         return null;
