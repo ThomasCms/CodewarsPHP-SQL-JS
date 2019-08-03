@@ -10,7 +10,7 @@
  * @param $distance
  * @return int|null
  */
-function fold_to($distance): ?int
+function fold_to($distance)
 {
     $num = 0.0001;
     $result = 0;
