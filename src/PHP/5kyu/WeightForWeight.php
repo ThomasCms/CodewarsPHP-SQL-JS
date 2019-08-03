@@ -6,59 +6,21 @@
  * Time: 10:04
  */
 
-/**
- * @param $str
- * @return string
- */
-function orderWeight($str): string
+function orderWeight($str)
 {
-    if ($str === "") {
-        return "";
+  $nums = explode(" ", $str);
+  
+  usort($nums, function ($a, $b) {
+    $sumA = array_sum(str_split((string) $a));
+    $sumB = array_sum(str_split((string) $b));
+    
+    if ($sumA === $sumB) {
+        return strcmp($a, $b);
     }
-
-    $nums = explode(" ", $str);
-    sort($nums, 5);
-
-    $sortArr = [];
-    $conArr = [];
-
-    for ($i=0; $i < count($nums); $i++) {
-        $uSortArr[$i] = numSum($nums[$i]);
-    }
-
-    $sorted = arrSort($sortArr);
-
-    for ($i = 0; $i < count($nums); $i++) {
-        $conArr[$i] = $nums[array_search($sorted[$i], $sortArr)];
-        unset($sortArr[array_search($sorted[$i], $sortArr)]);
-    }
-
-    return implode(' ', $conArr);
-}
-
-/**
- * @param $array
- * @return array
- */
-function arrSort($array): array
-{
-    sort($array);
-
-    return $array;
-}
-
-/**
- * @param $num
- * @return float
- */
-function numSum($num): float
-{
-    $sum = 0;
-
-    while ($num > 0) {
-        $sum += $num%10;
-        $num = floor($num/10);
-    }
-
-    return $sum;
+    
+    return $sumA > $sumB;
+  });
+  
+  
+  return implode(' ', $nums);
 }
