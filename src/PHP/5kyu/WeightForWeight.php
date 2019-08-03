@@ -6,7 +6,11 @@
  * Time: 10:04
  */
 
-function orderWeight($str)
+/**
+ * @param string $str
+ * @return string
+ */
+function orderWeight(string $str): string
 {
     $nums = explode(" ", $str);
   
