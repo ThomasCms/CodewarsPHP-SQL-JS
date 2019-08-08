@@ -13,4 +13,4 @@ snail = function(array) {
             result.push(array[i].shift());
     }
     return result;
-}
+};
