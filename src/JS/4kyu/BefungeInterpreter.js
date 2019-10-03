@@ -7,11 +7,13 @@ function interpret(code) {
         return code[i][j];
     };
 
-    while(ch !== '@'){
+    while (ch !== '@') {
         if (/[0-9]/.test(ch)) {
             stack.push(+ch);
         }
-        if (/[\+\-\*%]/.test(ch)) {let a = stack.pop(), b = stack.pop(); stack.push(eval('b'+ch+'a'))};
+        if (/[\+\-\*%]/.test(ch)) {
+            let a = stack.pop(), b = stack.pop(); stack.push(eval('b'+ch+'a'))
+        }
         if ('/' === ch) {
             let a = stack.pop(), b = stack.pop();
             stack.push(a ? b/a>>0 : 0);
