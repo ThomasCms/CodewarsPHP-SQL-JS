@@ -10,7 +10,7 @@ class GeneticAlgorithm
     /**
      * @param $length
      * @return array
-     * @throws Exception
+     * @throws \Exception
      */
     protected function generate($length): array
     {
@@ -62,7 +62,7 @@ class GeneticAlgorithm
      * @param $chromosome1
      * @param $chromosome2
      * @return array
-     * @throws Exception
+     * @throws \Exception
      */
     protected function crossover($chromosome1, $chromosome2): array
     {
@@ -86,7 +86,7 @@ class GeneticAlgorithm
      * @param $p_m
      * @param int $iterations
      * @return string
-     * @throws Exception
+     * @throws \Exception
      */
     public function run($fitness, $length, $p_c, $p_m, int $iterations = 200): string
     {
