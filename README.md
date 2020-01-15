@@ -8,7 +8,7 @@ Feel free to add your solutions in any language, try to use the same folder stru
 ### Langages
 * PHP
 * SQL
-* JS
+* JavaScript
 
 ### Versioning
 * Git
